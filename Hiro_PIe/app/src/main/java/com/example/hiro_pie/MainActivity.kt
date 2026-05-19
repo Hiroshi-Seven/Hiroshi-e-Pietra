@@ -19,14 +19,14 @@ class MainActivity : AppCompatActivity() {
         val senha = findViewById<EditText>(R.id.log_senha).text.toString()
 
         if (email == "lucas@hotmail.com" && senha == "abc@1234"){
-            Toast.makeText( this, "logado com sucesso", Toast.LENGTH_SHORT ).show(
+            Toast.makeText( this, "logado com sucesso", Toast.LENGTH_SHORT ).show("Logado com sucesso")
 
                 // abrindo homeactivity
             val intent(this,HomeActiviny::class.java)
             startActivity(intent)
             finish() // opicional, evita voltar para o login
         } else {
-            Toast.makeText( this, "email ou senha invalidos", Toast.LENGTH_SHORT).
+            Toast.makeText( this, "email ou senha invalidos", Toast.LENGTH_SHORT).show("Inválido")
         }
 
     }
