@@ -1,26 +1,73 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, scrollview, TextInput } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, TextInput } from 'react-native';
 
 export default function App() {
   return (
-    <scrollview style={styles.fundo} >
-    <View>
-      <Text>Catalogo de plantas</Text>
-    </View>
-    <View>
+    <ScrollView style={styles.container}>
       
-    </scrollview>
-    </view>
-    </scrollview>
+      <View style={styles.titulo}>
+        <Text style={styles.textTitulo}>Meu diário</Text>
+      </View>
+
+      <View style={styles.contTexto}>
+        <Text style={styles.texto}>
+          Anote acontecimentos importantes sobre seu dia aqui!!
+        </Text>
+      </View>
+
+      <View style={styles.areaTexto}>
+        <TextInput
+          style={styles.input}
+          placeholder="Digite sua anotação aqui..."
+          multiline={true}
+        />
+      </View>
+
+      <StatusBar style="auto" />
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  fonte: {
+  container: {
     flex: 1,
-    margintop:80,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    padding: 20,
+    backgroundColor: '#f0f4f8',
+  },
 
-  }
+  titulo: {
+    alignItems: 'center',
+    marginTop: 30,
+    marginBottom: 20,
+  },
+
+  textTitulo: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#7dffd4',
+  },
+
+  contTexto: {
+    marginBottom: 20,
+  },
+
+  texto: {
+    fontSize: 16,
+    textAlign: 'center',
+  },
+
+  areaTexto: {
+    alignItems: 'center',
+  },
+
+  input: {
+    width: '100%',
+    height: 200,
+    borderWidth: 2,
+    borderColor: '#db3434',
+    borderRadius: 10,
+    padding: 10,
+    backgroundColor: '#fff',
+    textAlignVertical: 'top',
+  },
 });
