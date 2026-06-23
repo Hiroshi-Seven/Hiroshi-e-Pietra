@@ -1,6 +1,6 @@
 # PAM I
-
-Felipe Hiroshi e Pietra Patricia Reis
+Felipe Hiroshi 
+Pietra Patricia Reis
 
 npx create-expo-app nome_do_app --template blank
 
