@@ -1,7 +1,6 @@
 # PAM I
-**Felipe Hiroshi**
-
-**Pietra Patricia Reis**
+**Felipe Hiroshi** <br>
+**Pietra Patricia Reis**<br>
 
 
 npx create-expo-app nome_do_app --template blank
