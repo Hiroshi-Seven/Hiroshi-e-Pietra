@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Expo: iniciar",
+      "type": "shell",
+      "command": "npm run start",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Expo: Android",
+      "type": "shell",
+      "command": "npm run android",
+      "problemMatcher": []
+    },
+    {
+      "label": "Expo: verificar projeto",
+      "type": "shell",
+      "command": "npm run doctor",
+      "problemMatcher": []
+    }
+  ]
+}

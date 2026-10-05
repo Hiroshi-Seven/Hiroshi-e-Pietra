@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "UmaWiki",
+    "slug": "umawiki-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.estudos.umawiki"
+    },
+    "ios": {
+      "bundleIdentifier": "com.estudos.umawiki"
+    }
+  }
+}
