@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "consultaapi",
-    "slug": "consultaapi",
+    "name": "poke-consulta",
+    "slug": "poke-consulta",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
